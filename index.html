@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
 </head>
-<body>
+<body onload="runDemo()">
+   
     <div id="agrupar">
+        
     <header>
         <nav>
-            <!-- <img class="logo" src="logo.png" alt=""> -->
-            
+            <div class="slideRight"><img style="width:100%;" src="logo.png" alt=""></div>
+            <div class="linea"></div>
             <ul class="ul">
                 <li class="inicio"><a  href="#">Inicio</a></li>
                 <li><a href="#historia">Historia</a></li>
@@ -23,7 +26,8 @@
        
         </nav>
     </header>
-    <hr>
+   
+    
     
        
         <section class="seccion">
@@ -70,20 +74,20 @@
     <h1 class="h1">Fotos</h1>
     
     <div class="foto" style="float:left;">
-        <a href="1.jpg"><img style="border: 1px solid white;" src="1.jpg" alt=""></a>   
-        <figcaption style="color:white;">Håkon Wium Lie</figcaption>
+        <a href="1.jpg"><img  src="1.jpg" alt=""></a>   
+        <figcaption style="color:black;">Håkon Wium Lie</figcaption>
     </div>
     <div class="foto" style="float:left;">
         <a href="2.jpg"><img src="2.jpg" alt=""></a>
-        <figcaption style="color:white;">Libro de estudio</figcaption>
+        <figcaption style="color:black;">Libro de estudio</figcaption>
     </div>
     <div class="foto" style="float:left;">
-        <a href="mvc.png"><img style="border: 1px solid white;" src="mvc.png" alt=""></a>
-        <figcaption style="color:white;">Diagrama</figcaption>
+        <a href="mvc.png"><img  src="mvc.png" alt=""></a>
+        <figcaption style="color:black;">Diagrama</figcaption>
     </div>
     <div class="foto" style="float:left;">
-        <a href="paleta.png"><img  style="border: 1px solid white;" src="paleta.png" alt=""></a>
-        <figcaption style="color:white;">Paleta de colores</figcaption>
+        <a href="paleta.png"><img  src="paleta.png" alt=""></a>
+        <figcaption style="color:black;">Paleta de colores</figcaption>
     </div>
 
     
@@ -109,11 +113,13 @@
 
 
 </div>
+
 <footer>
   
-    <p>© Todos los derechos reservados.</p>
-    <p>Curso de Programación Web / CUVL / 2020.</p>
-    <p>Américo Valdazo.</p>
+    <p>© Todos los derechos reservados</p>
+    <p>Curso de Programación Web / CUVL / 2020</p>
+    <p>Alumno: Américo Valdazo</p>
 </footer>
+<script src="transitions.js"></script>
 </body>
 </html>
